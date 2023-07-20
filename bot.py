@@ -18,6 +18,6 @@ async def on_ready():
 
 @client.tree.command(name="badge")
 async def badge(interaction: discord.Interaction):
-	await interaction.response.send_message(f"Hello Mr. {interaction.user.mention}! Thanks for using the bot! If this is your bot you should get the badge soon! (24h)")
+	await interaction.response.send_message(f"Hello {interaction.user.mention}! Thanks for using the bot! If this is your bot you should get the badge soon! (24h)")
 
 client.run(token)
